@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+.App {
+  font-family: "Merriweather", serif;
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(252, 205, 167),
+    rgb(253, 253, 149)
+  );
+  margin: 3%;
+  padding: 2rem;
+}
+
+hr {
+  background-color: orange;
+  height: 1.5px;
+  border: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: orangered;
+  text-shadow: 2px 2px rgba(255, 187, 0, 0.781);
+}
+
+h2 {
+  color: rgb(250, 82, 4);
+  font-size: 0.9rem;
+}
+
+button {
+  border: 2px solid orangered;
+  color: #fcfcf7;
+  font-family: "Merriweather", serif;
+  font-size: 1.3rem;
+  margin: 2rem 0.5rem;
+  padding: 0.7rem 1rem;
+  width: 8%;
+  border-radius: 5px;
+  background-color: #fa9209;
+}
+
+button:hover {
+  box-shadow: 2px 2px rgb(255, 94, 0);
+}
+
+li {
+  box-shadow: 2px 2px rgb(255, 133, 34);
+  border: 2px solid rgb(255, 124, 1);
+  color: rgb(255, 102, 0);
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid orangered;
+  width: 70%;
+  margin: 1rem 0rem;
+  text-align: left;
+  border-radius: 0.5rem;
+}
+
+.name {
+  color: orangered;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.7rem;
+}
+
+.desc {
+  padding: 0.7rem;
+  line-height: 1.6rem;
+  font-size: 0.9rem;
+}
+
+.rating {
+  font-size: 1.3rem;
+  padding: 0.7rem;
+}
